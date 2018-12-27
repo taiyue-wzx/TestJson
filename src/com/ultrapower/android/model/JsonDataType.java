@@ -1,0 +1,93 @@
+package com.ultrapower.android.model;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class JsonDataType {
+
+	public static Map<String, String> createDataType() {
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("APP_AVERAGE", "float");
+		map.put("APP_CI", "string");
+		map.put("APP_CON_ETIME", "timestamp");
+		map.put("APP_CON_STIME", "timestamp");
+		map.put("APP_CON_TYPE", "int");
+		map.put("APP_COUNTY_TOWN_NAME", "string");
+		map.put("APP_CRS_SINR", "float");
+		map.put("APP_CUSHION_NUMBER", "float");
+		map.put("APP_CUSHION_TIME", "float");
+		map.put("APP_CUSHION_TOTAL_TIME", "float");
+		map.put("APP_DATA_SIZE", "int");
+		map.put("APP_DOWNLOAD_TIME", "float");
+		map.put("APP_ECI", "string");
+		map.put("APP_ENCODING_INFORMATION", "string");
+		map.put("APP_FILE_BIT_RATE", "string");
+		map.put("APP_GPS_COORDINATE", "string");
+		map.put("APP_GROUP_NAME", "string");
+		map.put("APP_LAC", "float");
+		map.put("APP_LAT", "float");
+		map.put("APP_LOCATION", "string");
+		map.put("APP_LOGIN_ETIME", "timestamp");
+		map.put("APP_LOGIN_STIME", "timestamp");
+		map.put("APP_LOGIN_TYPE", "string");
+		map.put("APP_LOGTIME", "timestamp");
+		map.put("APP_LON", "float");
+		map.put("APP_MAX", "float");
+		map.put("APP_MCC", "string");
+		map.put("APP_MIN", "float");
+		map.put("APP_MNC", "string");
+		map.put("APP_NET_NAME", "string");
+		map.put("APP_NET_TYPE", "string");
+		map.put("APP_OPEN_TIME", "float");
+		map.put("APP_PLAY_TIME", "float");
+		map.put("APP_PROGRAM_TIME", "int");
+		map.put("APP_REQ_TIME", "timestamp");
+		map.put("APP_RES_TIME", "timestamp");
+		map.put("APP_RES_TYPE", "string");
+		map.put("APP_RSRP", "int");
+		map.put("APP_RSRQ", "float");
+		map.put("APP_RXLEVEL", "int");
+		map.put("APP_SCELL_PCI", "int");
+		map.put("APP_SENT_NUMBER", "int");
+		map.put("APP_SERVICEREQUEST", "string");
+		map.put("APP_SHAKE_NUMBER", "int");
+		map.put("APP_SOFT_VERSION", "string");
+		map.put("APP_STREET_NAME", "string");
+		map.put("APP_STREET_NUMBERL", "string");
+		map.put("APP_SUBGROUP_NAME", "string");
+		map.put("APP_SUCC_RECEIVED_NUMBER", "int");
+		map.put("APP_TAC", "string");
+		map.put("APP_TEST_LOCATION", "string");
+		map.put("APP_TEST_SCENARIO", "string");
+		map.put("APP_TTL_MAX", "int");
+		map.put("APP_TTL_MIN", "int");
+		map.put("APP_URL", "string");
+		map.put("APP_USER_FEELING_TIME", "float");
+		map.put("APP_VERSION", "int");
+		map.put("APP_VERSION_CODE", "string");
+		map.put("APP_BASEBAND", "string");
+		map.put("APP_FAC_VER", "string");
+		map.put("APP_IMEI", "string");
+		map.put("APP_IMSI", "string");
+		map.put("APP_IS_PUBLIC_LOG", "string");
+		map.put("APP_KERNEL", "string");
+		map.put("APP_MANUFACTURE", "string");
+		map.put("APP_MSISDN", "string");
+		map.put("APP_OS", "string");
+		map.put("APP_TYPECODE", "string");
+		map.put("APP_SERVICE_NAME", "string");
+		map.put("APP_SERVICE_IP", "string");
+		map.put("APP_ROLE_ID", "int");
+		map.put("APP_ROLE_NAME", "string");
+		map.put("APP_SCENE_TYPE_ID", "int");
+		map.put("APP_SCENE_TYPE_NAME", "string");
+		map.put("APP_SCENE_ID", "int");
+		map.put("APP_SCENE_NAME", "string");
+		map.put("APP_GROUP_CUSTOM_ID", "string");
+		map.put("APP_GROUP_CUSTOM_NAME", "string");
+		map.put("APP_START_TYPE", "string");
+		map.put("APP_START_TYPE_ID", "int");
+		return map;
+	}
+
+}
